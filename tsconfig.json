@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "target": "ESNext",
+        "lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
+        "moduleResolution": "NodeNext",
+        "esModuleInterop": true,
+        "declaration": true,
+        "declarationMap": true,
+        "resolveJsonModule": true,
+        "jsx": "react",
+        "declarationDir": "dist",
+        "emitDeclarationOnly": true,
+        "rootDir": "src"
+    },
+    "ts-node": {
+        "esm": true,
+        "files": true,
+        "transpileOnly": true,
+        "experimentalSpecifierResolution": "explicit",
+        "experimentalResolver": true
+    },
+    "include": ["src/**/*"]
+}
