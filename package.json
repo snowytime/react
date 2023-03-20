@@ -40,11 +40,13 @@
         "dist"
     ],
     "exports": {
-        "./hooks": "./dist/hooks",
-        "./components": "./dist/components",
-        "./helpers": "./dist/helpers"
+        "./hooks": {
+            "import": "./dist/hooks/index.js",
+            "require": "./dist/hooks/index.js",
+            "types": "./dist/hooks/index.d.ts",
+            "default": "./dist/hooks/index.js"
+        }
     },
-    "types": "dist/index.d.ts",
     "dependencies": {
         "@snowytime/vibe": "^0.0.84"
     },
