@@ -51,6 +51,14 @@
             "types": "./dist/hooks/index.d.ts"
         }
     },
+    "typesVersions": {
+        "*": {
+            "*": [
+                "./dist/index.d.ts",
+                "./dist/*"
+            ]
+        }
+    },
     "dependencies": {
         "@snowytime/vibe": "^0.0.84"
     },
