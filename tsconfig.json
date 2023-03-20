@@ -20,5 +20,6 @@
         "experimentalSpecifierResolution": "explicit",
         "experimentalResolver": true
     },
-    "include": ["src/**/*"]
+    "include": ["src/**/*"],
+    "exclude": ["src/**/*.test.*"]
 }

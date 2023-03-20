@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { useIsoMorphicEffect } from "#hooks/use-isomorphic-effect/index.js";
 
-export function useLatestValue<T>(value: T) {
+export const useLatestValue = <T>(value: T) => {
     const cache = useRef(value);
 
     useIsoMorphicEffect(() => {
@@ -9,4 +9,4 @@ export function useLatestValue<T>(value: T) {
     }, [value]);
 
     return cache;
-}
+};
