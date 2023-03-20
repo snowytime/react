@@ -29,9 +29,9 @@
     "scripts": {
         "test": "ava",
         "build": "rm -rf dist && swc src --config-file build.json -d dist && tsc",
-        "release:patch": "npm run test && npm run build && git add . && git commit -m '⚡️ auto patch' && git push origin master && npm version patch && npm publish",
-        "release:minor": "npm run test && npm run build && git add . && git commit -m '⚡️ auto minor' && git push origin master && npm version minor && npm publish",
-        "release:major": "npm run test && npm run build && git add . && git commit -m '⚡️ auto major' && git push origin master && npm version major && npm publish"
+        "release:patch": "npm run test && npm run build && git add . && git commit -m '⚡️ auto patch' && git push origin main && npm version patch && npm publish",
+        "release:minor": "npm run test && npm run build && git add . && git commit -m '⚡️ auto minor' && git push origin main && npm version minor && npm publish",
+        "release:major": "npm run test && npm run build && git add . && git commit -m '⚡️ auto major' && git push origin main && npm version major && npm publish"
     },
     "engines": {
         "node": ">=16.0.0"
