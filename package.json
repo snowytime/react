@@ -49,6 +49,16 @@
             "require": "./dist/hooks/index.js",
             "import": "./dist/hooks/index.js",
             "types": "./dist/hooks/index.d.ts"
+        },
+        "./helpers": {
+            "require": "./dist/helpers/index.js",
+            "import": "./dist/helpers/index.js",
+            "types": "./dist/helpers/index.d.ts"
+        },
+        "./components": {
+            "require": "./dist/components/index.js",
+            "import": "./dist/components/index.js",
+            "types": "./dist/components/index.d.ts"
         }
     },
     "typesVersions": {
