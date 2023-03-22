@@ -1,1 +1,1 @@
-export * from "./transition/index.jsx";
+export * from "./transition/index.js";

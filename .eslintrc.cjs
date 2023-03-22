@@ -25,5 +25,7 @@ module.exports = {
         "react/jsx-props-no-spreading": "off",
         "no-use-before-define": "off",
         "react/require-default-props": "off",
+        "prefer-object-spread": "off",
+        "no-restricted-syntax": "off",
     },
 };

@@ -22,7 +22,7 @@ import {
     RenderStrategy,
     RefProp,
 } from "#helpers/render/index.js";
-import { OpenClosedProvider, State, useOpenClosed } from "./open-close.jsx";
+import { OpenClosedProvider, State, useOpenClosed } from "./open-close.js";
 import { match } from "#helpers/match/index.js";
 import { useIsMounted } from "#hooks/use-is-mounted/index.js";
 import { useIsoMorphicEffect } from "#hooks/use-isomorphic-effect/index.js";
