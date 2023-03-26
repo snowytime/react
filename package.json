@@ -2,7 +2,7 @@
     "name": "@snowytime/react-magic",
     "sideEffects": false,
     "type": "module",
-    "version": "0.0.11",
+    "version": "0.0.12",
     "description": "A collection of neat react things",
     "keywords": [],
     "author": "",
