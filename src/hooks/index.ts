@@ -16,3 +16,4 @@ export * from "./use-store/index.js";
 export * from "./use-disposables/index.js";
 export * from "./use-server-handoff-complete/index.js";
 export * from "./use-transition/index.js";
+export * from "./use-store/index.js";
