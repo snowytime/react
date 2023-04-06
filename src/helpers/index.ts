@@ -12,3 +12,4 @@ export * from "./once/index.js";
 export * from "./platform/index.js";
 export * from "./render/index.js";
 export * from "./transition/index.js";
+export * from "./generic-context/index.js";
